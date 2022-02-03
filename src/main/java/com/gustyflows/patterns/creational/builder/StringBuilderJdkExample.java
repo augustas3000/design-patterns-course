@@ -24,7 +24,6 @@ public class StringBuilderJdkExample {
             stringBuilder.append(String.format("  <li>%s</li>\n", word));
         }
         stringBuilder.append("</ul>");
-//        String s = stringBuilder.toString();
         System.out.println(stringBuilder);
 
     }
