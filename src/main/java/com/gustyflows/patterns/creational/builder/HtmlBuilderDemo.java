@@ -7,7 +7,7 @@ import java.util.List;
 public class HtmlBuilderDemo {
 
     public static void main(String[] args) {
-        HtmlBuilder builder = new HtmlBuilder("ul");
+        HtmlBuilderFluent builder = new HtmlBuilderFluent("ul");
         builder.addChild("li", "hello");
         builder.addChild("li", "world");
         System.out.println(builder);
