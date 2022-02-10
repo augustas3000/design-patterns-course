@@ -1,4 +1,4 @@
-package com.gustyflows.patterns.creational.singleton;
+package com.gustyflows.patterns.creational.singleton.basic;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -17,6 +17,7 @@ public class BasicSingletonDemo {
 
         //problems with basic singleton approach:
         //1. Reflection: make additional copies through reflection
+        //use some reflections library to access private constructor and make new instances..
 
         //2. Serialization: when we deserialize an object, the jvm doesn't care that constructor is private - it will
         //create an object anyways:
