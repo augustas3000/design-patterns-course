@@ -1,4 +1,4 @@
-package com.gustyflows.patterns.creational.prototype;
+package com.gustyflows.patterns.creational.prototype.cloneableInterface;
 
 import java.util.Arrays;
 
@@ -8,7 +8,7 @@ an existing(partially or fully constructed) design is a prototype,
 make a deep copy (clone) of prototype and customize it,
 make cloning convenient - e.x a factory
  */
-public class PrototypeDemo {
+public class PrototypeUsingCloneableDemo {
     public static void main(String[] args) {
 
     }
