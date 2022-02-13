@@ -7,7 +7,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 public enum EnumBasedSingleton {
-    INSTANCE;
+    INSTANCE; //the only thing that is serialized is instace, not fields..
 
     //private all the time
     EnumBasedSingleton() {
